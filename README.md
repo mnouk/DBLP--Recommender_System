@@ -40,9 +40,17 @@ If we can represent the mentee vectors in the same 'semantic space' as that of t
 
 ## Solution:
 
-We take a 4-step approach to the solution :
+We take a 5-step approach to the solution :
 
-1. Data Extraction -- Moving from an XML to a Tabular representation.
-2. Data Cleaning --
+#### 1. Data Extraction -- Moving from an XML to a Tabular representation.
+#### 2. Data Cleaning -- Removal of Aliasis for Authors.
+######   ( Certain authors (potential Mentors) produce documents under different names, be it spelling , accents, change of last  name, initials etc..) 
+
+#### 3. Topic Extraction -- Creating the semantic space.
+#### 4. Projecting the Mentors into the semantic space and coming up with measures of expertise.
+#### 5. Recommendation
+
+
+
 
 
