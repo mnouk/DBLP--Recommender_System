@@ -33,6 +33,16 @@ m = [(p1,T1), (p2, T2),....(pN, TN)]-- where N is the number of topics chosen ab
                                     -- T1,....TN are topics (expressed in any Ontology)
                                     -- p1,....pN are the respective preference 'weights'
 
-## PROBLEM DESCRIPTION :
+## PROBLEM DESCRIPTION:
 
-If we can represent the mentee vectors in the same 'semantic space' as that of the mentors, the problem of recommendation boils down to a simple correlation maxiisation problem.
+If we can represent the mentee vectors in the same 'semantic space' as that of the mentors, the problem of recommendation boils down to a simple correlation maximisation problem. The goal is therefore to first represent the Mentor vectors in a semantic space and then, project the mentee vectors onto it (Thereby effectively mapping the two Ontologies and getting rid of semantic heterogeneity). Finally computing the most correlated mentor vectors for a given mentee.
+
+
+## Solution:
+
+We take a 4-step approach to the solution :
+
+1. Data Extraction -- Moving from an XML to a Tabular representation.
+2. Data Cleaning --
+
+
