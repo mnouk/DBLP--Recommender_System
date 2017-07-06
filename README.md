@@ -53,4 +53,14 @@ We take a 5-step approach to the solution :
 
 ## Future Work
 
+We can see from the notebook on Topic Extraction that the LDA model chosen allows us to achieve all the goals set out in the beginning. There are a few steps left in the pipeline :
 
+#### 1. Each author is can be seen as a collection of Titles
+
+Now the LDA  model outputs a weighted topic distribution of each title. These are all vectors in our semantic space defined by th LDA model. We sum the weights of each topic for all titles for a given Author and normalise them, giving us the weights w1, w2....wN.
+
+These weights can be further improved using the time difference in years each author had and also the Google scholar citation scores per title.
+
+#### 2. Each Mentee's vector [(p1, T1),...etc] is projected into the same semantic sppace using the same LDA model 
+
+#### 3. Now we can use pearson correlation to compute the best Mentors for a given Mentee
