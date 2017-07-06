@@ -49,6 +49,8 @@ We take a 5-step approach to the solution :
 #### 5. Recommendation
 
 
+##### Note: The first three points are solved and the respective notebooks are self explanatory.
 
+## Future Work
 
 
